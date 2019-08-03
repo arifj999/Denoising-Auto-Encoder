@@ -1,0 +1,2 @@
+python run_autoencoder.py --model_name=mean_squared --main_dir=mean_squared/ --loss_func=mean_squared
+python run_autoencoder.py --model_name=cross_entropy --main_dir=cross_entropy/  --enc_act_func=sigmoid --loss_func=cross_entropy
